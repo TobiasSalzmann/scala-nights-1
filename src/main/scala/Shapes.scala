@@ -1,8 +1,7 @@
-object PatternMatching {
+object Shapes {
   sealed trait Shape
   case class Circle(radius: Double) extends Shape
   case class Rectangle(width: Double, height: Double) extends Shape
-  case class Triangle(width: Double, height: Double) extends Shape
 
   def area(shape: Shape): Double = ???
 
